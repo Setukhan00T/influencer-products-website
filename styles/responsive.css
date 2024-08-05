@@ -1,0 +1,54 @@
+@media screen and (max-width: 800px) {
+  .nav-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-main > div {
+    margin-top: 20px;
+  }
+  .fifty-off {
+    right: 30%;
+  }
+  .popular-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+
+/* small device */
+
+@media screen and (max-width: 500px) {
+  .navbar-hamburger {
+    display: block;
+  }
+  .nav-btn-container {
+    display: none;
+  }
+  .nav-main {
+    flex-direction: row;
+  }
+  .banner-main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-childs {
+    width: 100%;
+  }
+  .market-logo{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.popular-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .featured-section{
+   flex-direction: column;
+}
+.featured-child{
+    width: 100%;
+    text-align: center;
+}
+}
